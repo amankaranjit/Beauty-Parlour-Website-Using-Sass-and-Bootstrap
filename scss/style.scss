@@ -1,0 +1,57 @@
+// Bootstrap file Need Only //
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "bootstrap/functions";
+
+// 2. Include any default variable overrides here
+@import "bootstrap/variables";
+@import 'frontend/variables';
+
+// 3. Include remainder of required Bootstrap stylesheets
+
+@import "bootstrap/mixins";
+
+// 4. Include any optional Bootstrap components as you like
+
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+@import "bootstrap/bootstrap-utilities.scss";
+@import "bootstrap/dropdown";
+@import "bootstrap/tables";
+@import "bootstrap/modal";
+@import "bootstrap/buttons";
+@import "bootstrap/pagination";
+@import "bootstrap/accordion";
+@import "bootstrap/transitions";
+@import "bootstrap/alert";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/forms";
+@import "bootstrap/nav";
+@import "bootstrap/badge";
+
+
+@import 'frontend/main';
+@import 'frontend/swiper';
+@import 'frontend/menu';
+@import 'frontend/header';
+@import 'frontend/banner';
+@import 'frontend/services';
+@import 'frontend/about_us';
+@import 'frontend/testimonial';
+@import 'frontend/blogs';
+@import 'frontend/gallery';
+@import 'frontend/footer';
+
+@import 'frontend/breadcrumb';
+
+
+
+
+
+
+
+// responsive
+@import 'frontend/media';

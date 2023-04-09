@@ -1,0 +1,179 @@
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: $white_color;
+}
+
+.top_header {
+  border-bottom: $border-height-sm solid $border_color;
+  padding: 0.5rem 0rem;
+
+  .top_nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: $secondary_color;
+
+    .top_contact_info {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      font-size: $font-sm;
+      font-weight: 500;
+
+      a {
+        color: $secondary_color;
+
+        &:hover {
+          color: $primary_color;
+          transition: 0.3s;
+        }
+      }
+
+      i {
+        margin-right: 0.8rem;
+      }
+    }
+
+    .social_icon {
+      display: flex;
+      gap: 2rem;
+
+      a {
+        color: $secondary_color;
+
+        &:hover {
+          color: $primary_color;
+          transition: 0.3s;
+        }
+      }
+
+    }
+  }
+}
+
+.menu_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0rem;
+
+  .header_left {
+    width: 12rem;
+    // figure {
+    //   img {
+    //     width: 100%;
+    //     filter: invert(0) brightness(25);
+    //   }
+    // }
+  }
+}
+
+nav {
+  ul.slimmenu {
+    li {
+      background-color: transparent;
+
+      a {
+        font-family: $primary_font;
+        font-size: $font-md;
+        font-weight: 500;
+        color: $black_color;
+        padding: 0.8rem 2rem;
+
+        &:hover {
+          background-color: transparent;
+          color: $primary_color;
+          transition: 0.3s;
+        }
+
+        i {
+          display: none;
+        }
+      }
+
+      .sub-toggle {
+        display: none;
+        background: initial;
+      }
+
+      ul {
+        background: $white_color;
+        padding-left: 0;
+        min-width: 20rem;
+        border: $border-height-sm solid $border_color;
+
+        li {
+          background: $white_color;
+          width: 100%;
+          border-bottom: $border-height-sm solid $border_color;
+
+          a {
+            font-size: $font-sm;
+            padding: 0.6rem 0.8rem;
+            color: $secondary_color;
+          }
+
+          .sub-toggle {
+            display: block;
+            background: initial;
+          }
+        }
+      }
+    }
+  }
+}
+
+.menu_fixed {
+  .header_left {
+    figure {
+      img {
+        filter: initial;
+      }
+    }
+  }
+
+  .collapse-button {
+    .icon-bar {
+      background-color: $primary_color;
+    }
+  }
+
+  nav {
+    ul {
+      li {
+        a {
+          color: $secondary_color;
+        }
+      }
+    }
+  }
+}
+
+ul.slimmenu.collapsed {
+  background-color: $white_color;
+}
+
+.menu-collapser {
+  height: 6rem;
+  background-color: transparent;
+}
+
+.collapse-button {
+  left: initial;
+  right: 0;
+
+  .icon-bar {
+    background-color: $primary_color;
+  }
+}
+
+ul.slimmenu li>ul>li ul {
+  top: -1px;
+}
+
+ul.slimmenu li>ul {
+  top: 5.1rem;
+}

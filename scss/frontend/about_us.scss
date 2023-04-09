@@ -1,0 +1,39 @@
+.about_us {
+    background: $bg-primary;
+    padding: 14rem 0rem;
+
+    .about_wrapper {
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        .about_img {
+            width: 34%;
+            left: 0;
+            position: relative;
+            z-index: 999;
+
+            img {
+                width: 100%;
+                border-radius: $border-radius-sm;
+                height: 45rem;
+                object-fit: cover;
+            }
+        }
+
+        .about_content {
+            width: 83%;
+            background-color: #fff;
+            border-radius: 0.4rem;
+            position: absolute;
+            right: 0;
+            padding: 12rem 10rem;
+
+            .content_width {
+                max-width: 55rem;
+                margin-left: auto;
+            }
+        }
+    }
+
+}

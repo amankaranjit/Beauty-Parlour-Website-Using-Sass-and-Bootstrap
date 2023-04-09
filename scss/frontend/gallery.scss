@@ -1,0 +1,23 @@
+.gallery {
+    padding-bottom: 7rem;
+}
+
+.gallery_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+
+    .img_box {
+        border-radius: $border-radius-sm;
+        overflow: hidden;
+
+        figure {
+            img {
+                width: 18rem;
+                height: 18rem;
+                object-fit: cover;
+            }
+        }
+    }
+}

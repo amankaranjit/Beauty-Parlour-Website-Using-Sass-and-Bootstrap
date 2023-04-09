@@ -1,0 +1,57 @@
+.page_head {
+    position: relative;
+
+    .page_head_bg {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 35rem;
+        background-position: center;
+        background-size: cover;
+
+        .overlay {
+            background-color: $black_color;
+            opacity: 0.8;
+        }
+
+        .page_head_title {
+            position: relative;
+            z-index: 99;
+            margin-bottom: 3rem;
+            margin-top: 7rem;
+
+            h1 {
+                color: $white_color;
+            }
+        }
+
+        .page_head_breadcrumb {
+            position: relative;
+            z-index: 99;
+            background-color: $primary_color;
+            border-radius: 0.4rem;
+            padding: 1rem;
+
+            ul {
+                li {
+                    display: inline-block;
+
+                    span {
+                        margin-left: 0.5rem;
+                        color: $secondary_color;
+                    }
+
+                    a {
+                        color: $white_color;
+
+                        &:hover {
+                            color: $secondary_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

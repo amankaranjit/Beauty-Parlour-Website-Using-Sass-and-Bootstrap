@@ -1,0 +1,82 @@
+.testimonials {
+    background: url(../images/scroll.jpg) no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    padding: 12rem 0 20rem 0;
+    z-index: 999;
+
+    .container {
+        position: relative;
+        z-index: 999;
+    }
+
+    .overlay {
+        opacity: initial;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9641106442577031) 0%, rgba(0, 0, 0, 0.499124649859944) 75%);
+    }
+
+    .booking_content {
+        color: $white_color;
+        max-width: 50rem;
+
+        .main_title {
+            h2 {
+                color: $white_color;
+            }
+        }
+    }
+
+    .client_review {
+        background-color: $white_color;
+        border-radius: $border-radius-sm;
+        box-shadow: 0px 16px 32px 0px rgba(196, 203, 255, 0.3);
+        position: absolute;
+        right: 0;
+        padding: 6rem;
+        width: 40%;
+
+        .client_slider {
+            .client_box {
+                display: flex;
+                gap: 3rem;
+                align-items: center;
+                margin-top: 3rem;
+                margin-bottom: 6rem;
+
+                .client_img {
+                    img {
+                        width: 8rem;
+                        height: 8rem;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                }
+
+                .client_info {
+                    h4 {
+                        color: $primary_color;
+                        margin-bottom: 0.5rem;
+                    }
+
+                    span {
+                        color: $text_color;
+                        font-size: $font-sm;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    left: 0;
+    bottom: 0;
+    transform: initial;
+    color: $primary_color;
+}
+
+:root {
+    --swiper-theme-color: #F7A392;
+}

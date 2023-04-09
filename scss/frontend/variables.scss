@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Teko:wght@300;400;500;600;700&display=swap');
+
+$primary_font: 'Jost',
+sans-serif;
+$secondary_font: 'Open Sans',
+sans-serif;
+
+$primary_header_font: 'Jost',
+sans-serif;
+$secondary_header_font: 'Open Sans',
+sans-serif;
+
+$text_font: 'Open Sans',
+sans-serif;
+
+$primary_color: #F7A392;
+$secondary_color: #252525;
+
+$border_color:#ddd;
+$text_color: #7A7A7A;
+$text_color1: #555;
+
+
+$white_color: #fff;
+$white_color_light: #EDF7F5;
+
+$black_color: #000;
+
+$bg-primary: #FFF6F4;
+$footer_top_bg: #252525;
+$footer_bottom_bg: #2F2F2F;
+// $footer_text: #ddd;
+
+$font-xs:1.2rem;
+$font-sm:1.4rem;
+$font-md:1.6rem;
+$font-lg:2rem;
+$font-xl:2.8rem;
+$font-xxl:3.6rem;
+
+$border-height-sm:.1rem;
+$border-radius-sm:.4rem;
+
+$linear-box_shadow: linear-gradient(0deg, rgba(247, 163, 146, 1) 23%, rgba(247, 163, 146, 0.768032212885154) 73%, rgba(247, 163, 146, 0) 100%);
+
+
+// margin top
+
+.mt-10 {
+    margin-top: 1rem;
+}
+
+.mt-12 {
+    margin-top: 1.2rem;
+}
+
+.mt-15 {
+    margin-top: 1.5rem;
+}
+
+.mt-20 {
+    margin-top: 2rem;
+}
+
+.mt-25 {
+    margin-top: 2.5rem;
+}
+
+.mt-30 {
+    margin-top: 3rem;
+}
+
+// margin bottom
+
+.mb-10 {
+    margin-bottom: 1rem;
+}
+
+.mb-12 {
+    margin-bottom: 1.2rem;
+}
+
+.mb-15 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-20 {
+    margin-bottom: 2rem;
+}
+
+.mb-25 {
+    margin-bottom: 2.5rem;
+}
+
+.mb-30 {
+    margin-bottom: 3rem;
+}
+
+.mb-70 {
+    margin-bottom: 7rem;
+}
+
+// padding top
+
+.pt-10 {
+    padding-top: 1rem;
+}
+
+.pt-12 {
+    padding-top: 1.2rem;
+}
+
+.pt-15 {
+    padding-top: 1.5rem;
+}
+
+.pt-20 {
+    padding-top: 2rem;
+}
+
+.pt-25 {
+    padding-top: 2.5rem;
+}
+
+.pt-30 {
+    padding-top: 3rem;
+}
+
+.pt-90 {
+    padding-top: 9rem;
+}
+
+// padding bottom 
+
+.pb-10 {
+    padding-bottom: 1rem;
+}
+
+.pb-12 {
+    padding-bottom: 1.2rem;
+}
+
+.pb-15 {
+    padding-bottom: 1.5rem;
+}
+
+.pb-20 {
+    padding-bottom: 2rem;
+}
+
+.pb-25 {
+    padding-bottom: 2.5rem;
+}
+
+.pb-30 {
+    padding-bottom: 3rem;
+}
+
+// margin padding border 0
+
+.pd-0 {
+    padding: 0 !important;
+}
+
+.mg-0 {
+    margin: 0;
+}

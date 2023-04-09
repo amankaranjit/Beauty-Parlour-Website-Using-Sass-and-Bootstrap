@@ -1,0 +1,306 @@
+@media only screen and (max-width: 479px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+    .banner {
+        .banner_wrapper {
+            .swiper_nav {
+                display: none;
+            }
+
+            figure {
+                figcaption {
+                    left: 3rem;
+
+                    .banner_content {
+                        max-width: initial;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    .menu_wrapper {
+        display: initial;
+        position: relative;
+
+        .header_left {
+            position: absolute;
+            top: 1.5rem;
+        }
+    }
+
+    .service_content .main_title {
+        width: initial;
+    }
+
+    .service_box {
+        margin-bottom: 3rem;
+    }
+
+    .about_us {
+        padding: 5rem 0;
+
+        .about_wrapper {
+            flex-direction: column;
+            position: initial;
+            gap: 3rem;
+
+            .about_img {
+                width: 100%;
+                position: initial;
+            }
+
+            .about_content {
+                width: 100%;
+                position: initial;
+                padding: 3rem;
+
+                .content_width {
+                    max-width: initial;
+                }
+
+            }
+        }
+
+    }
+
+    .testimonials {
+        padding: 5rem 0;
+
+        .client_review {
+            position: initial;
+            width: 100%;
+            margin-top: 3rem;
+            padding: 3rem;
+        }
+
+        .booking_content {
+            max-width: initial;
+        }
+    }
+
+    .blogs {
+        padding: 5rem 0;
+
+        .news_box {
+            margin-bottom: 3rem;
+        }
+    }
+
+    .m_b {
+        margin-bottom: 3rem;
+    }
+
+    .gallery_wrapper {
+        .img_box {
+            figure {
+                img {
+                    width: 10rem;
+                    height: 10rem;
+                }
+            }
+        }
+    }
+
+    nav ul.slimmenu li a {
+        padding: 0.8rem 0rem;
+    }
+
+    .top_header .top_nav_wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+    .banner {
+        .banner_wrapper {
+            .swiper_nav {
+                display: none;
+            }
+
+            figure {
+                figcaption {
+                    left: 3rem;
+
+                    .banner_content {
+                        max-width: initial;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .menu_wrapper {
+        display: initial;
+        position: relative;
+
+        .header_left {
+            position: absolute;
+            top: 1.5rem;
+        }
+    }
+
+    .service_content .main_title {
+        width: initial;
+    }
+
+    .service_box {
+        margin-bottom: 3rem;
+    }
+
+    .about_us {
+        padding: 5rem 0;
+
+        .about_wrapper {
+            flex-direction: column;
+            position: initial;
+            gap: 3rem;
+
+            .about_img {
+                width: 100%;
+                position: initial;
+            }
+
+            .about_content {
+                width: 100%;
+                position: initial;
+                padding: 3rem;
+
+                .content_width {
+                    max-width: initial;
+                }
+
+            }
+        }
+
+    }
+
+    .testimonials {
+        padding: 5rem 0;
+
+        .client_review {
+            position: initial;
+            width: 100%;
+            margin-top: 3rem;
+        }
+
+        .booking_content {
+            max-width: initial;
+        }
+    }
+
+    .blogs {
+        padding: 5rem 0;
+
+        .news_box {
+            margin-bottom: 3rem;
+        }
+    }
+
+    .m_b {
+        margin-bottom: 3rem;
+    }
+
+    .gallery_wrapper {
+        .img_box {
+            figure {
+                img {
+                    width: 13rem;
+                    height: 13rem;
+                }
+            }
+        }
+    }
+
+    nav ul.slimmenu li a {
+        padding: 0.8rem 0rem;
+    }
+
+    .top_header .top_nav_wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+    .about_us {
+        .about_wrapper {
+            .about_content {
+                padding: 12rem 5rem 12rem 20rem;
+
+                .content_width {
+                    max-width: 50rem;
+                }
+            }
+        }
+
+    }
+
+    .testimonials {
+        padding: 10rem 0;
+
+        .client_review {
+            padding: 2rem;
+            width: 46%;
+            right: 2rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .about_us {
+        .about_wrapper {
+            .about_content {
+                padding: 12rem 3rem 12rem 20rem;
+
+                .content_width {
+                    max-width: 60rem;
+                }
+            }
+        }
+
+    }
+
+    .testimonials {
+        .client_review {
+            right: 2rem;
+        }
+    }
+}
